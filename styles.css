@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #4e6e58;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+h1 {
+  color: #88cabd;
+  margin: 3% auto;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 2% auto;
+}
+
+.minute-tile {
+  background-color: #4e6e58;
+  border-radius: 5%;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0.1% 0.3%;
+  padding-top: 19%;
+  width: 19%;
+}
+
+.minute-tile-passed {
+  background-color: #88cabd;
+}
