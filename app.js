@@ -1,6 +1,6 @@
 const TOTAL_MIN = 25;
 const TOTAL_SEC = 60;
-const SECOND_VALUE = 100;
+const SECOND_VALUE = 1000;
 const MINUTE_VALUE = SECOND_VALUE * 60;
 
 function createSecondTile(second) {
