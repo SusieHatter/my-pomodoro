@@ -1,9 +1,9 @@
 :root {
-  --background: #12130f;
-  --minute-active: #bdd9c0;
-  --minute-passed: #5b9279;
-  --second-active: #8fcb9b;
-  --second-passed: #8fcb9b;
+  --background: #0d0221;
+  --minute-active: #79acb4;
+  --minute-passed: #0f084b;
+  --second-active: #c2e7d9;
+  --second-passed: #26408b;
 }
 
 * {
@@ -20,9 +20,10 @@ body {
 }
 
 h1 {
-  color: #88cabd;
+  color: var(--second-passed);
   margin: 3% auto;
   text-align: center;
+  font-size: 5vw;
 }
 
 .container {
@@ -42,6 +43,7 @@ h1 {
   width: 18%;
   margin: 1%;
   background-color: var(--background);
+  border-radius: 2%;
 }
 
 .minute-tile-active {
@@ -58,6 +60,7 @@ h1 {
   padding-top: 6%;
   margin: 1%;
   background-color: var(--background);
+  border-radius: 3%;
 }
 
 .second-tile-active {
