@@ -22,8 +22,9 @@ body {
 h1 {
   color: var(--second-passed);
   margin: 3% auto;
-  text-align: center;
+  text-align: left;
   font-size: 5vw;
+  width: 50vw;
 }
 
 .container {
